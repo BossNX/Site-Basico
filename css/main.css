@@ -1,0 +1,165 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 16px;
+    width: 70%;
+}
+
+.logo img {
+    cursor: pointer;
+}
+
+.redes-sociais ul li {
+    margin-left: 23px;
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+}
+
+.header-2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-urls {
+    border-bottom: 3px solid #efefef;
+    height: 80px;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration-line: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+
+.busca input {
+    background-image: url('../img/icone-search.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 36px;
+    width: 190px;
+    margin-top: 7px;
+    padding-left: 12px;
+    border: 1px solid #d6d6d6;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+    height: 84px;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url('../img/anterior.png');
+    position: absolute;
+    z-index: 9;
+    top: 37%;
+    left: 14%;
+    cursor: pointer;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url('../img/posterior.png');
+    position: absolute;
+    z-index: 9;
+    top: 37%;
+    right: 14%;
+    cursor: pointer;
+}
+
+.stick-list {
+    width: 100%!important;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    background: transparent;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    left: 45%;
+    position: absolute;
+    top: 93%;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding-left: 8px;
+}
+
+li.slick-active button {
+    background: #00bac6;
+}
